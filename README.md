@@ -21,7 +21,7 @@ Step 1: Open and inspect each E-mail<br/>
 <p align="center">
 <img src="https://i.imgur.com/sjC2XLS.png" height="80%" width="80%" alt="Add User"/>
 </p><br />
-<align="left">This e-mail immediately looks suspicious.  The sending address is set as auto-confirm.info-amazon.co.uk, not amazon.co.uk. I can see it’s actually coming from QPE77756@mun.ca. The format and styling don't look like an e-mail from Amazon. The e-mail is also generically addressed to "Amazon user." This e-mail also has a call-to-action button, try to get the user to click on the link for the "Help Page - Refund Form." This e-mail is the first Phishing e-mail.
+<align="left">This e-mail immediately looks suspicious.  The sending address is set as auto-confirm.info-amazon.co.uk, not amazon.co.uk. I can see it’s actually coming from QPE77756@mun.ca. The format and styling don't look like an e-mail from Amazon. The e-mail is also generically addressed to "Amazon user." This e-mail also has a call-to-action button, trying to get the user to click on the link for the "Help Page - Refund Form." This e-mail is the first Phishing e-mail.
 <br />
   <p align="center">
 <img src="https://i.imgur.com/bsW51CV.png" height="80%" width="80%" alt="Add User"/>
