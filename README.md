@@ -2,6 +2,7 @@
 <h2>Description</h2>
   You have recently joined the security team at ABC Industries as a Junior SOC analyst within their security operations center (SOC). You are responsible for monitoring the SIEM platform, investigating and responding to security events, and protecting the organization from phishing attacks. You have just begun your shift, and in a new effort to proactively identify phishing emails that have made it past perimeter defenses, you have been given a number of emails that have randomly been copied from employee mailboxes. It is your job to analyze the downloaded emails, identify if any are malicious, and conduct investigations and write reports for any that are deemed to pose a risk to the organization. Reports should include a list of artifacts, analysis activities and results, and suggested defensive measures which will be reviewed by senior analysts.
 <br />
+<br />
 A fellow analyst has already taken a look at the selection of emails and identified TWO malicious emails out of the sample of 5. Inspect the emails and write a Phishing Analysis report.
 <br />
 <h2>Utilities Used</h2>
