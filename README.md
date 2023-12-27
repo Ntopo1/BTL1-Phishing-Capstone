@@ -46,12 +46,12 @@ This is another spam email trying to convince people to sign up and begin tradin
 <br />
 <br />
 <h3>Part 2: Analyze the first malicious e-mail</h3>
-Step 1: Analyze the Email Header Artifacts
+Step 1: Analyze the e-mail header artifacts
 <br/>
 <p align="center">
 <img src="https://i.imgur.com/wfb82da.png" height="80%" width="80%" alt="Capture"/>
 </p><br />
-I open the email in a text editor. To retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient and the subject line.
+I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient and the subject line.
 <br />
 <br />
 Step 2: Perform reverse DNS of the sender's server IP
@@ -68,7 +68,7 @@ Step 3: Copy the link and open in in a secure locations<br/>
 <img src="https://i.imgur.com/ikFmD48.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p><br />
 <br /> 
-Step 4: Check the link on Virustotal <br/>
+Step 4: Check the link on VirusTotal <br/>
 <p align="center">
 <img src="https://i.imgur.com/6YClKfc.png" height="80%" width="80%" alt="enable DHCP"/>
 </p>
@@ -101,7 +101,7 @@ Step 1: Analyze the Email Header Artifacts
 <p align="center">
 <img src="https://i.imgur.com/dZiIyes.png" height="80%" width="80%" alt="Capture"/>
 </p><br />
-I open the email in a text editor. To retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient and the subject line.
+I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient and the subject line.
 <br />
 <br />
 Step 2: Perform reverse DNS of the sender's server IP
@@ -119,7 +119,7 @@ Step 3: Get a hash of the malicious file<br/>
 <img src="https://i.imgur.com/xUbnK8T.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p>
 <br /> 
-Step 4: Check the file hash on Virustotal <br/>
+Step 4: Check the file hash on VirusTotal <br/>
 <p align="center">
 <img src="https://i.imgur.com/mU9Z0TV.png" height="80%" width="80%" alt="enable DHCP"/>
 </p><br /> 
