@@ -1,12 +1,9 @@
-# BTL1-Phishing-Capstone
-BTL1 Phishing Capstone
+<h1># BTL1-Phishing-Capstone</h1>
+<h2>Description</h2>
   You have recently joined the security team at ABC Industries as a Junior SOC analyst within their security operations center (SOC). You are responsible for monitoring the SIEM platform, investigating and responding to security events, and protecting the organization from phishing attacks. You have just begun your shift, and in a new effort to proactively identify phishing emails that have made it past perimeter defenses, you have been given a number of emails that have randomly been copied from employee mailboxes. It is your job to analyze the downloaded emails, identify if any are malicious, and conduct investigations and write reports for any that are deemed to pose a risk to the organization. Reports should include a list of artifacts, analysis activities and results, and suggested defensive measures which will be reviewed by senior analysts.
-
-A fellow analyst has already taken a look at the selection of emails and identified TWO malicious emails out of the sample of 5. Inspect the emails and write a Phishing Analysis report</h1>
-
 <br />
-
-
+A fellow analyst has already taken a look at the selection of emails and identified TWO malicious emails out of the sample of 5. Inspect the emails and write a Phishing Analysis report.
+<br />
 <h2>Utilities Used</h2>
 
 - <b>whois.domaintools</b>
@@ -142,6 +139,6 @@ A VirusTotal search shows 59 security vendors and 1 sandbox flagged this file as
 Suggested Defensive Measures:<br />
 As the sender is using a Gmail address, the most appropriate action would be to block this specific mailbox to prevent any more incoming malicious emails from this sender.
 
-Requesting an email gateway block for the sending address "FSDFAS2423N23K@gmail.com"
+Requesting an email gateway block for the sending address "FSDFAS2423N23K@gmail[.]com"
 <br />
 </p>
