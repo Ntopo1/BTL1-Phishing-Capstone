@@ -134,12 +134,17 @@ Files:COVID19-Testing-Kit-2020.pdf.exe<br />
 SHA256 file Hash:8b2e701e91101955c73865589a4c72999aeabc11043f712e05fdb1c17c4ab19a<br />
 This e-mail attempts to impersonate the National Healthcare System or NHS. The sender intended to create a sense of urgency to claim free covid tests by having the recipient click on a malicious attached file.
 <br />
+  <br />
 Artifact Analysis: <br />
 A VirusTotal search shows 59 security vendors and 1 sandbox flagged this file as malicious. Popular threat labels are trojan.zbot/foreign. This file contains a trojan or spyware.
  <br />
+  <br />
 Suggested Defensive Measures:<br />
 As the sender is using a Gmail address, the most appropriate action would be to block this specific mailbox to prevent any more incoming malicious emails from this sender.
 
 Requesting an email gateway block for the sending address "FSDFAS2423N23K@gmail[.]com"
 <br />
+Additonally, the file should be blocked from being accessed on any network device.
+<br />
+Requesting a blacklist the specific SHA256 file hash: 8b2e701e91101955c73865589a4c72999aeabc11043f712e05fdb1c17c4ab19a
 </p>
