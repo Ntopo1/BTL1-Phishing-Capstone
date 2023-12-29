@@ -93,7 +93,7 @@ The web page was most likely a credential harvester before being taken down. The
 
 The domain has been recognized as malicious, and there is no business justification for any employees needing to access this site. As it has a malicious reputation on VirusTotal, the entire domain can be blocked on the web proxy, preventing employees from connecting to the site. This will also make future phishing attacks using this same domain ineffective.<br />
 
-Requesting a web proxy block for the domain "hxxp://id820update.refundsys59.co.uk/invoice103amz/index.php?ema=il=3Djack.tractive@abcindustries[.]co.uk".
+Requesting a web proxy block for the domain "hxxp://id820update.refundsys59.co.uk/".
 <br />
 <h3>Part 3: Analyze the second malicious e-mail</h3>
 Step 1: Analyze the Email Header Artifacts
@@ -146,5 +146,5 @@ Requesting an email gateway block for the sending address "FSDFAS2423N23K@gmail[
 <br />
 Additonally, the file should be blocked from being accessed on any network device.
 <br />
-Requesting a blacklist the specific SHA256 file hash: 8b2e701e91101955c73865589a4c72999aeabc11043f712e05fdb1c17c4ab19a
+Requesting a blacklist of the specific SHA256 file hash: 8b2e701e91101955c73865589a4c72999aeabc11043f712e05fdb1c17c4ab19a
 </p>
