@@ -37,12 +37,12 @@ This is the second malicious email. The sender has a suspicious e-mail address. 
 <p align="center">
 <img src="https://i.imgur.com/ADq1B0F.png" height="80%" width="80%" alt="Add User"/>
 </p><br />
-This would be classifed as spam/newsletter. The email is not using a real call-to-action even though it contains several hyperlinks. I wouldn't recommend clicking any of the links.
+This would be classified as spam/newsletter. The email is not using a real call-to-action even though it contains several hyperlinks. I wouldn't recommend clicking any of the links.
 <br />
 <p align="center">
 <img src="https://i.imgur.com/igyWlws.png" height="80%" width="80%" alt="Add User"/>
 </p><br />
-This is another spam email trying to convince people to sign up and begin trading cryptocurrencies, and is not inherently malicious. I wouldn't recommend clicking any of the links.
+This is another spam email trying to convince people to sign up and begin trading cryptocurrencies and is not inherently malicious. I wouldn't recommend clicking any of the links.
 <br />
 <br />
 <h3>Part 2: Analyze the first malicious e-mail</h3>
@@ -51,7 +51,7 @@ Step 1: Analyze the e-mail header artifacts
 <p align="center">
 <img src="https://i.imgur.com/wfb82da.png" height="80%" width="80%" alt="Capture"/>
 </p><br />
-I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient and the subject line.
+I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient, and the subject line.
 <br />
 <br />
 Step 2: Perform reverse DNS of the sender's server IP
@@ -60,7 +60,7 @@ Step 2: Perform reverse DNS of the sender's server IP
 <img src="https://i.imgur.com/7KAdx5t.png" height="80%" width="80%" alt="Save"/>
 </p>
 <br />
-Step 3: Copy the link and open in in a secure locations<br/>
+Step 3: Copy the link and open it in a secure location<br/>
 <p align="center">
 <img src="https://i.imgur.com/6tMcHdx.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p><br />
@@ -144,7 +144,7 @@ As the sender is using a Gmail address, the most appropriate action would be to 
 
 Requesting an email gateway block for the sending address "FSDFAS2423N23K@gmail[.]com"
 <br />
-Additonally, the file should be blocked from being accessed on any network device.
+Additionally, the file should be blocked from being accessed on any network device.
 <br />
 Requesting a blacklist of the specific SHA256 file hash: 8b2e701e91101955c73865589a4c72999aeabc11043f712e05fdb1c17c4ab19a
 </p>
