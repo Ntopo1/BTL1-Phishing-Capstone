@@ -51,7 +51,7 @@ Step 1: Analyze the e-mail header artifacts
 <p align="center">
 <img src="https://i.imgur.com/wfb82da.png" height="80%" width="80%" alt="Capture"/>
 </p><br />
-I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient, and the subject line.
+I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the Sending Server IP, the recipient, and the subject line.
 <br />
 <br />
 Step 2: Perform reverse DNS of the sender's server IP
@@ -101,7 +101,7 @@ Step 1: Analyze the Email Header Artifacts
 <p align="center">
 <img src="https://i.imgur.com/dZiIyes.png" height="80%" width="80%" alt="Capture"/>
 </p><br />
-I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the sending server's IP, the recipient and the subject line.
+I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the Sending Server IP, the recipient and the subject line.
 <br />
 <br />
 Step 2: Perform reverse DNS of the sender's server IP
