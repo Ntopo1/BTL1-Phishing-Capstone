@@ -15,9 +15,7 @@ A fellow analyst has already taken a look at the selection of emails and identif
 
 
 <h2>Program walk-through:</h2>
-
-
-Step 1: Open and inspect each E-mail<br/>
+<h4>Step 1: Open and inspect each E-mail<br/></h4>
 <p align="center">
 <img src="https://i.imgur.com/sjC2XLS.png" height="80%" width="80%" alt="Add User"/>
 </p><br />
@@ -27,8 +25,7 @@ Step 1: Open and inspect each E-mail<br/>
 <img src="https://i.imgur.com/bsW51CV.png" height="80%" width="80%" alt="Add User"/>
 </p><br />
 This e-mail also looks suspicious. Free money, who wouldn't want some? The e-mail is not addressed to anyone, suggesting it's mass-mailed. The URL is not hyperlinked, so it doesn't appear to have the user try and click on anything. thescottishsun[.]co[.]uk is a legitimate news site, and it does not appear malicious. The e-mail is a spam/scam e-mail and could be considered malicious if a person sent their personal information. But this is not the second e-mail.
-<br />
-  
+<br />  
 <p align="center">
 <img src="https://i.imgur.com/ok5tZR2.png" height="80%" width="80%" alt="Add User"/>
 </p><br />
@@ -46,7 +43,7 @@ This is another spam email trying to convince people to sign up and begin tradin
 <br />
 <br />
 <h3>Part 2: Analyze the first malicious e-mail</h3>
-Step 1: Analyze the e-mail header artifacts
+<h4>Step 1: Analyze the e-mail header artifacts</h4>
 <br/>
 <p align="center">
 <img src="https://i.imgur.com/wfb82da.png" height="80%" width="80%" alt="Capture"/>
@@ -54,13 +51,13 @@ Step 1: Analyze the e-mail header artifacts
 I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the Sending Server IP, the recipient, and the subject line.
 <br />
 <br />
-Step 2: Perform reverse DNS of the sender's server IP
+<h4>Step 2: Perform reverse DNS of the sender's server IP</h4>
 <br /> 
 <p align="center">
 <img src="https://i.imgur.com/7KAdx5t.png" height="80%" width="80%" alt="Save"/>
 </p>
 <br />
-Step 3: Copy the link and open it in a secure location<br/>
+<h4>Step 3: Copy the link and open it in a secure location<br/></h4>
 <p align="center">
 <img src="https://i.imgur.com/6tMcHdx.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p><br />
@@ -68,13 +65,13 @@ Step 3: Copy the link and open it in a secure location<br/>
 <img src="https://i.imgur.com/ikFmD48.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p><br />
 <br /> 
-Step 4: Check the link on VirusTotal <br/>
+<h4>Step 4: Check the link on VirusTotal <br/></h4>
 <p align="center">
 <img src="https://i.imgur.com/6YClKfc.png" height="80%" width="80%" alt="enable DHCP"/>
 </p>
 <br />
-Step 5: Write a Phishing Analysis report for malicious e-mail 1<br />
-Sender's e-mail address: auto-confirm.info-amazon.co.uk <QPE77756@mun.ca><br />
+<h4>Step 5: Write a Phishing Analysis report for malicious e-mail 1<br /></h4>
+<p></p>Sender's e-mail address: auto-confirm.info-amazon.co.uk <QPE77756@mun.ca><br />
 Date and time sent: 4/19/2017, 12:35 PM<br />
 Sending Server IP: 68.114.190.29<br />
 Reverse DNS of Sending server IP:mtaout004-public.msg.strl.va.charter.net <br />
@@ -94,9 +91,9 @@ The web page was most likely a credential harvester before being taken down. The
 The domain has been recognized as malicious, and there is no business justification for any employees needing to access this site. As it has a malicious reputation on VirusTotal, the entire domain can be blocked on the web proxy, preventing employees from connecting to the site. This will also make future phishing attacks using this same domain ineffective.<br />
 
 Requesting a web proxy block for the domain "hxxp://id820update.refundsys59.co.uk/".
-<br />
+<br /></p>
 <h3>Part 3: Analyze the second malicious e-mail</h3>
-Step 1: Analyze the Email Header Artifacts
+<h4>Step 1: Analyze the Email Header Artifacts</h4>
 <br/>
 <p align="center">
 <img src="https://i.imgur.com/dZiIyes.png" height="80%" width="80%" alt="Capture"/>
@@ -104,13 +101,13 @@ Step 1: Analyze the Email Header Artifacts
 I open the email in a text editor to retrieve the sender's e-mail address, the date and time the e-mail is sent, the Sending Server IP, the recipient and the subject line.
 <br />
 <br />
-Step 2: Perform reverse DNS of the sender's server IP
+<h4>Step 2: Perform reverse DNS of the sender's server IP</h4>
 <br /> 
 <p align="center">
 <img src="https://i.imgur.com/Zi5yT2I.png" height="80%" width="80%" alt="Save"/>
 </p>
 <br />
-Step 3: Get a hash of the malicious file<br/>
+<h4>Step 3: Get a hash of the malicious file<br/></h4>
 <p align="center">
 <img src="https://i.imgur.com/CTUrTSQ.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p><br /> In this case a file hash was provided.
@@ -119,11 +116,11 @@ Step 3: Get a hash of the malicious file<br/>
 <img src="https://i.imgur.com/xUbnK8T.png" height="80%" width="80%" alt="Display filter https/443"/>
 </p>
 <br /> 
-Step 4: Check the file hash on VirusTotal <br/>
+<h4>Step 4: Check the file hash on VirusTotal <br/></h4>
 <p align="center">
 <img src="https://i.imgur.com/mU9Z0TV.png" height="80%" width="80%" alt="enable DHCP"/>
 </p><br /> 
-Step 5: Write a Phishing Analysis report for malicious e-mail 2<br />
+<h4>Step 5: Write a Phishing Analysis report for malicious e-mail 2<br /></h4>
 Sender's e-mail address: skly asdam <FSDFAS2423N23K@gmail[.]com><br />
 Date and time sent: 6/12/2020, 8:23 PM<br />
 Sending Server IP:209.85.160.173<br />
